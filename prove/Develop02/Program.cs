@@ -11,9 +11,11 @@ class Program
         PromptGenerator NewPrompts = new PromptGenerator();
         //NewPrompts.DisplayRandomPrompt();
         while (UserSelection != 5){
+            Console.WriteLine("");
             Console.WriteLine("Please select one of the following choices:\n"+
             "1. Write\n2. Display\n3. Load\n4. Save\n5. Quit\n"+
             "What would you like to do?");
+            Console.WriteLine("");
             UserSelection = int.Parse(Console.ReadLine());
             
             if (UserSelection == 1){
