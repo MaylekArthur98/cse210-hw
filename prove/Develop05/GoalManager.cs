@@ -137,6 +137,7 @@ public class GoalManager{
         Console.WriteLine("The goals are: ");
         ListGoalDetails();
         Console.Write("Which goal did you accomplish? ");
+        Console.WriteLine("");
         var goalNum = Convert.ToInt32(Console.ReadLine()) - 1;
         var addPoints = _goal[goalNum].RecordEvent();
         _score += addPoints;
