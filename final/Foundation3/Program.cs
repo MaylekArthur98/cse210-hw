@@ -13,7 +13,7 @@ class Program
         event1.GetFullDetails();
         Console.WriteLine("");
         Console.WriteLine("");
-        Reception event2 = new Reception("Dining With The Simmons","Join us and help raise money for the elderly while eating delicious foods!","December 6th, 2024", "7:00pm","56 E street. Burrowsburg Dc, 58173","ProfessionalMeetingHalls@outlook.com");
+        Reception event2 = new Reception("Dining With The Simmons","Join us and help raise money for the elderly while eating delicious foods!","December 6th, 2024", "7:00pm","56 E street. Burrowsburg Dc, 58173","ProfessionalMeetingHalls@outlook.com. ");
         event2.ShortDescription();
         Console.WriteLine("");
         event2.StandardDetails();
