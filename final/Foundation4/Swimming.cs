@@ -29,6 +29,6 @@ public class Swimming: ExceriseAct{
         this._distance = GetLaps() * 50/1000;
     }
     public override string GetSummary(){
-        return $"{GetDate()} Swimming laps({GetMinutes()} mins)- {GetLaps()} laps, Distance {GetDistance()} miles, Speed {GetSpeed():0.00} mph, Pace: {GetPace()} per mile";
+        return $"{GetDate()} Swimming laps({GetMinutes()} mins)- {GetLaps()} laps, Distance {GetDistance()} km, Speed {GetSpeed():0.00} mph, Pace: {GetPace()} per mile";
     }
 }
